@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="Spec18pt">12.399994sp</dimen>
+    <dimen name="Spec20pt">13.0sp</dimen>
+    <dimen name="Spec21pt">14.199982sp</dimen>
+    <dimen name="Spec22pt">14.599976sp</dimen>
+    <dimen name="Spec24pt">15.599976sp</dimen>
+    <dimen name="Spec25pt">16.599976sp</dimen>
+    <dimen name="Spec28pt">18.699982sp</dimen>
+    <dimen name="Spec29pt">18.599976sp</dimen>
+    <dimen name="Spec30pt">19.399994sp</dimen>
+    <dimen name="Spec82pt">54.69998sp</dimen>
+    <dimen name="Spec32pt">20.399994sp</dimen>
+    <dimen name="ImageHeight">96.0px</dimen>
+    <dimen name="ImageWidth">96.0px</dimen>
+    <dimen name="ListItemHeight">96.0px</dimen>
+    <dimen name="ImageListItemHeight">96.0px</dimen>
+    <dimen name="TextPaddingLeft">5.0dip</dimen>
+</resources>

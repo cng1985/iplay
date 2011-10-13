@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="Font">
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="Font.MainText" parent="@style/Font">
+        <item name="android:textSize">@dimen/Spec30pt</item>
+        <item name="android:textColor">@color/light_blue</item>
+    </style>
+    <style name="Font.MainMusicText" parent="@style/Font">
+        <item name="android:textSize">@dimen/Spec18pt</item>
+        <item name="android:textColor">@color/light_blue</item>
+    </style>
+    <style name="Font.MediaTitleText" parent="@style/Font">
+        <item name="android:textSize">@dimen/Spec30pt</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="Font.TitleBlueText" parent="@style/Font">
+        <item name="android:textSize">@dimen/Spec21pt</item>
+        <item name="android:textColor">@color/title_blue</item>
+    </style>
+    <style name="Font.BlueSmallText" parent="@style/Font">
+        <item name="android:textSize">@dimen/Spec18pt</item>
+        <item name="android:textColor">@color/spec_blue</item>
+    </style>
+    <style name="Font.GraySmallText" parent="@style/Font">
+        <item name="android:textSize">@dimen/Spec18pt</item>
+        <item name="android:textColor">@color/spec_gray</item>
+    </style>
+    <style name="Font.TextSpec18Black" parent="@style/Font">
+        <item name="android:textSize">@dimen/Spec18pt</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="Font.TextSpec18White" parent="@style/Font">
+        <item name="android:textSize">@dimen/Spec18pt</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="Font.TextSpec18DarkBlue" parent="@style/Font">
+        <item name="android:textSize">@dimen/Spec18pt</item>
+        <item name="android:textColor">@color/dark_blue_album</item>
+    </style>
+    <style name="Font.TextSpec20White" parent="@style/Font">
+        <item name="android:textSize">@dimen/Spec20pt</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="Font.TextSpec25Black" parent="@style/Font">
+        <item name="android:textSize">@dimen/Spec25pt</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="Font.TextSpec25White" parent="@style/Font">
+        <item name="android:textSize">@dimen/Spec25pt</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="Font.TextSpec25WhiteBold" parent="@style/Font">
+        <item name="android:textSize">@dimen/Spec25pt</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="Font.TextSpec30White" parent="@style/Font">
+        <item name="android:textSize">@dimen/Spec30pt</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="Font.TextSpec30OffWhite" parent="@style/Font">
+        <item name="android:textSize">@dimen/Spec30pt</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="Font.TextSpec30Black" parent="@style/Font">
+        <item name="android:textSize">@dimen/Spec30pt</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="Font.TextSpec32White" parent="@style/Font">
+        <item name="android:textSize">@dimen/Spec32pt</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>

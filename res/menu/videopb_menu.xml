@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/vid_mode_normal" android:id="@id/video_normal" android:title="@string/videoNormal" />
+    <item android:icon="@drawable/vid_mode_best" android:id="@id/video_best" android:title="@string/videoBest" />
+    <item android:icon="@drawable/vid_mode_full" android:id="@id/video_full" android:title="@string/videoFull" />
+</menu>

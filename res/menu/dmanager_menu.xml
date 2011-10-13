@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/clear_downloads" android:id="@id/clearDownloads" android:title="@string/clear_downloads" />
+    <item android:icon="@drawable/reset_cancelled" android:id="@id/resetCancFailed" android:title="@string/reset_cancFailed" />
+    <item android:icon="@drawable/reset_stream" android:id="@id/resetStreamingOption" android:title="@string/reset_streamingOption" />
+    <item android:icon="@drawable/settings_norm" android:id="@id/settings" android:title="@string/setin" />
+</menu>

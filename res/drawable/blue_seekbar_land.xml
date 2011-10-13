@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background" android:layout_width="fill_parent" android:drawable="@drawable/progress_hoz_empty_land" />
+    <item android:id="@android:id/secondaryProgress" android:layout_width="fill_parent" android:drawable="@drawable/progress_hoz_full_land" />
+    <item android:id="@android:id/progress" android:layout_width="fill_parent" android:drawable="@drawable/progress_full_land" />
+</layer-list>

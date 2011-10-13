@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:background="@color/bg_color_main"
+	android:padding="1.0px" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+	<RelativeLayout android:id="@id/homeTitleBar"
+		android:background="@drawable/title_bar_home" android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<ImageView android:id="@id/rpHomeLogo" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:src="@drawable/rp_brand"
+			android:layout_centerInParent="true" />
+	</RelativeLayout>
+	<LinearLayout android:orientation="vertical" android:id="@id/topLayout"
+		android:background="@drawable/bg_vert" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:layout_below="@id/homeTitleBar">
+		<LinearLayout android:orientation="horizontal"
+			android:padding="1.0px" android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:layout_weight="2.0">
+			<Button android:gravity="center" android:id="@id/playlists_button"
+				android:background="@drawable/playlists_main_button"
+				android:layout_width="fill_parent" android:layout_height="fill_parent"
+				android:text="音乐" android:layout_weight="1.0"
+				style="\@style/Font.MainText" />
+			<LinearLayout android:orientation="vertical" android:id="@id/musicLayout"
+				android:layout_width="fill_parent" android:layout_height="fill_parent"
+				android:layout_weight="1.0">
+				<LinearLayout android:orientation="horizontal"
+					android:layout_width="fill_parent" android:layout_height="fill_parent"
+					android:layout_weight="1.0">
+					<Button android:gravity="center" android:id="@id/artists_button"
+						android:background="@drawable/artists_main_button"
+						android:layout_width="fill_parent" android:layout_height="fill_parent"
+						android:text="@string/artists" android:layout_weight="1.0"
+						style="\@style/Font.MainMusicText" />
+					<Button android:gravity="center" android:id="@id/albums_button"
+						android:background="@drawable/albums_main_button"
+						android:layout_width="fill_parent" android:layout_height="fill_parent"
+						android:text="@string/albums" android:layout_weight="1.0"
+						style="\@style/Font.MainMusicText" />
+				</LinearLayout>
+				<LinearLayout android:orientation="horizontal"
+					android:layout_width="fill_parent" android:layout_height="fill_parent"
+					android:layout_weight="1.0">
+					<Button android:gravity="center" android:id="@id/genres_button"
+						android:background="@drawable/genres_main_button"
+						android:layout_width="fill_parent" android:layout_height="fill_parent"
+						android:text="@string/genres" android:layout_weight="1.0"
+						style="\@style/Font.MainMusicText" />
+					<Button android:gravity="center" android:id="@id/songs_button"
+						android:background="@drawable/songs_main_button"
+						android:layout_width="fill_parent" android:layout_height="fill_parent"
+						android:text="@string/songs" android:layout_weight="1.0"
+						style="\@style/Font.MainMusicText" />
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:layout_weight="2.0">
+			<Button android:gravity="center" android:id="@id/videos_button"
+				android:background="@drawable/videos_main_button"
+				android:layout_width="fill_parent" android:layout_height="fill_parent"
+				android:text="铃声" android:layout_weight="1.0"
+				style="\@style/Font.MainText" />
+			<Button android:gravity="center" android:id="@id/pictures_button"
+				android:background="@drawable/photos_main_button"
+				android:layout_width="fill_parent" android:layout_height="fill_parent"
+				android:text="壁纸" android:layout_weight="1.0"
+				style="\@style/Font.MainText" />
+		</LinearLayout>
+	</LinearLayout>
+</RelativeLayout>

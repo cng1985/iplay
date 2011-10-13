@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:background="@drawable/widget_backplate" android:layout_width="300.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/widgetPlaybackControls" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageButton android:id="@id/WidgetPlayPauseButton" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/widget_play_av" android:layout_centerHorizontal="true" />
+        <ImageButton android:id="@id/WidgetPreviousTrackButton" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:src="@drawable/widget_rewind" android:layout_toLeftOf="@id/WidgetPlayPauseButton" />
+        <ImageButton android:id="@id/WidgetNextTrackButton" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:src="@drawable/widget_ff" android:layout_toRightOf="@id/WidgetPlayPauseButton" />
+    </RelativeLayout>
+    <Button android:textSize="12.0sp" android:textColor="@android:color/white" android:id="@id/widget_nowplaying_button" android:background="@drawable/widget_nowplaying" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="Song Title" android:singleLine="true" android:layout_below="@id/widgetPlaybackControls" android:layout_centerHorizontal="true" />
+</RelativeLayout>

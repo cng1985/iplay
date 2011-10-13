@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="drawable" name="translucent_background">#e0000000</item>
+    <item type="drawable" name="transparent_background">#00000000</item>
+    <item type="drawable" name="blue_background">#600000ff</item>
+    <item type="drawable" name="failed_dmgr">false</item>
+</resources>

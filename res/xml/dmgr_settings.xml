@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_dmgr">
+        <CheckBoxPreference android:persistent="true" android:title="@string/pref_dmgr_autoDownload_title" android:key="pref_dmgr_autoDownload_key" android:summary="@string/pref_dmgr_autoDownload_summary" android:defaultValue="true" />
+        <ListPreference android:persistent="true" android:entries="@array/pref_dmgr_activeDownloads_choices" android:title="@string/pref_dmgr_activeDownloads_title" android:key="pref_dmgr_activeDownloads_key" android:summary="@string/pref_dmgr_activeDownloads_summary" android:defaultValue="@string/default_value_pref_dmgr_activeDownloads" android:dialogTitle="@string/pref_dmgr_activeDownloads_dialogtitle" android:entryValues="@array/pref_dmgr_activeDownloads_values" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/pref_dmgr_clearCompleted_title" android:key="pref_dmgr_clearCompleted_key" android:summary="@string/pref_dmgr_clearCompleted_summary" android:defaultValue="false" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/pref_dmgr_notify_title" android:key="pref_dmgr_notify_key" android:summary="@string/pref_dmgr_notify_summary" android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

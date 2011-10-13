@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/play_slideshow_norm" android:id="@id/sldSh" android:title="@string/sldShow" />
+    <item android:icon="@drawable/rotate_norm" android:id="@id/rotate" android:title="@string/rotate">
+        <menu>
+            <item android:id="@id/rotLeft" android:title="@string/rtLft" />
+            <item android:id="@id/rotRight" android:title="@string/rtRgh" />
+        </menu>
+    </item>
+    <item android:icon="@drawable/delete_norm" android:id="@id/del" android:title="@string/delete" />
+    <item android:icon="@drawable/crop_norm" android:id="@id/cropMenu" android:title="Crop" />
+    <item android:icon="@drawable/settings_norm" android:id="@id/settings" android:title="@string/setin" />
+</menu>

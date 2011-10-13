@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/recently_ad_settings">
+        <ListPreference android:persistent="true" android:entries="@array/pref_recently_ad_choices" android:title="@string/pref_recently_ad_title" android:key="pref_recently_ad_key" android:summary="@string/pref_recently_ad_summary" android:defaultValue="@string/default_value_recently_ad" android:dialogTitle="@string/pref_recently_ad_dialogtitle" android:entryValues="@array/pref_recently_ad_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/storageAndFolders">
+        <Preference android:title="@string/playbackByFolder" android:key="pref_playBackFolder" android:summary="@string/playbackFolderSummary" />
+    </PreferenceCategory>
+</PreferenceScreen>

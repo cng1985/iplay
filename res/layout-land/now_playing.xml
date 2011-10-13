@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:id="@id/RelativeLayout01" android:background="@color/bg_color_main" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/ActivityTitleRelativeLayout" android:background="@drawable/title_bar_nowplaying" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <Button android:id="@id/HomeButton" android:background="@drawable/home_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <TextView android:ellipsize="end" android:id="@id/TopText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="5.0dip" android:text="Line1" android:singleLine="true" android:layout_toRightOf="@id/HomeButton" android:layout_alignParentTop="true" style="\@style/Font.BlueSmallText" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="marquee" android:id="@id/TitleText" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="5.0dip" android:singleLine="true" android:layout_toRightOf="@id/HomeButton" android:layout_below="@id/TopText" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ActivityTitleRelativeLayout">
+        <FrameLayout android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/AlbumArtImageView" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/missing_music" android:scaleType="fitXY" android:layout_weight="1.0" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <RelativeLayout android:id="@id/UserSettingsLayout" android:background="@drawable/ratings_bg" android:focusable="false" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                    <RatingBar android:id="@id/AudioRatingBar" android:paddingTop="25.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:progressDrawable="@drawable/ratingbar" android:layout_centerInParent="true" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </FrameLayout>
+        <RelativeLayout android:background="@drawable/transparent_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <RelativeLayout android:id="@id/PlaybackControlsLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_centerInParent="true">
+                <Button android:id="@id/PlayPauseButton" android:background="@drawable/pause" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+                <Button android:id="@id/PreviousTrackButton" android:background="@drawable/rewind" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_toLeftOf="@id/PlayPauseButton" />
+                <Button android:id="@id/NextTrackButton" android:background="@drawable/ff" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_toRightOf="@id/PlayPauseButton" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/ShuffleRepeatLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_weight="1.0" android:layout_above="@id/PlaybackControlsLayout" android:layout_alignParentTop="true">
+                <Button android:id="@id/HiddenPlayPauseButton" android:background="@drawable/pause" android:focusable="true" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+                <Button android:id="@id/repeatButton" android:background="@drawable/loop_off" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginRight="23.0dip" android:layout_toLeftOf="@id/HiddenPlayPauseButton" />
+                <Button android:id="@id/shuffleButton" android:background="@drawable/shuffle_off" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="23.0dip" android:layout_marginTop="5.0dip" android:layout_toRightOf="@id/HiddenPlayPauseButton" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/SeekbarLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_below="@id/PlaybackControlsLayout" android:layout_alignParentBottom="true">
+                <SeekBar android:id="@id/TimeSeekBar" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxHeight="14.0dip" android:progressDrawable="@drawable/blue_seekbar_land" android:minWidth="210.0dip" android:thumb="@drawable/seek_thumb" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+                <TextView android:gravity="bottom" android:id="@id/PositionTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_above="@id/TimeSeekBar" android:layout_alignParentLeft="true" style="\@style/Font.GraySmallText" />
+                <TextView android:gravity="bottom" android:id="@id/DurationTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:layout_above="@id/TimeSeekBar" android:layout_alignParentRight="true" style="\@style/Font.GraySmallText" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

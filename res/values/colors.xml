@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="gray">#ffb4b4b4</color>
+    <color name="darkBlue">#ff000033</color>
+    <color name="mid_blue">#ff0070ff</color>
+    <color name="light_blue">#ffaabbcc</color>
+    <color name="spec_blue">#ff7da7d9</color>
+    <color name="title_blue">#ff99c3ff</color>
+    <color name="gray_background">#ff101e27</color>
+    <color name="bg_color_main">#ff101e27</color>
+    <color name="spec_gray">#ff888f93</color>
+    <color name="dark_blue_album">#ff4c6c8c</color>
+    <color name="dark_background">#ff101e27</color>
+</resources>
